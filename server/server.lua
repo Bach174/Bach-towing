@@ -3,7 +3,7 @@ local ropes = {}
 
 
 
-QBCore.Functions.CreateUseableItem("tow_rope", function(source, item)
+QBCore.Functions.CreateUseableItem(Config.RopeItem, function(source, item)
     local src = source
     local player = QBCore.Functions.GetPlayer(src)
     if player then

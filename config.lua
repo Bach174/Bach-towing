@@ -1,17 +1,11 @@
 Config = {}
 
-Config.Locales = {
-    Locked = "The vehicle is locked",
-    TooFar = "You are too far away"
-}
-
-
--- QB-Target 
+-- QB-Target
 Config.Target = true -- simpelt du kan fjerne rebet via qb-target
 
 Config.Physics = "both" -- can be both, detach or ragdoll
 
-Config.Bach = true
+Config.RopeItem = "tow_rope"
 
 -- How long the tow rope should be (in meters) I strongly recommend keeping it between 6 and 10 meters
 Config.ropeLength = 7
